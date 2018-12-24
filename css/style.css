@@ -60,8 +60,9 @@
 
 .small_eye_left,
 .small_eye_right {
+  /* z-index: 1; */
   position: absolute;
-  top: 60px;
+  top: 55px;
   width: 20px;
   height: 20px;
   background-color: #000;
@@ -69,11 +70,11 @@
 }
 
 .small_eye_left {
-  left: 68px;
+  left: 45px;
 }
 
 .small_eye_right {
-  right: 68px;
+  right: 45px;
 }
 
 .nose_01 {
